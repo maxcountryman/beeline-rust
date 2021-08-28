@@ -18,7 +18,7 @@ use libhoney::Value;
 
 // TODO(nlopes): once we add http propagation we should remove this allow
 #[allow(dead_code)]
-const PROPAGATION_HTTP_HEADER: &str = "X-Honeycomb-Trace";
+pub const PROPAGATION_HTTP_HEADER: &str = "X-Honeycomb-Trace";
 const PROPAGATION_VERSION: usize = 1;
 
 /// Propagation contains all the information about a payload header
