@@ -19,7 +19,7 @@ use std::sync::Arc;
 use parking_lot::{Mutex, RwLock};
 
 mod errors;
-mod propagation;
+pub mod propagation;
 mod timer;
 pub mod trace;
 pub use libhoney::client::Options as ClientOptions;
